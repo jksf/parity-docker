@@ -2,7 +2,7 @@ version: '2'
 
 services:
   parity:
-    image: parity/parity:v1.10.8
+    image: parity/parity:v2.0.6
     volumes:
       - ./keys:/parity-data/keys
       - ./config:/parity-data/config

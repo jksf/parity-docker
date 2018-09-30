@@ -1,13 +1,5 @@
 [parity]
 base_path = "/parity-data"
 
-[network]
-warp = true
-
 [footprint]
-pruning = "fast"
 cache_size = 2048
-
-[rpc]
-interface = "0.0.0.0"
-cors = []
